@@ -1,0 +1,17 @@
+name: Delay
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Sleep for 30 seconds
+      run: sleep 30s
+      shell: bash
