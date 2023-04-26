@@ -1,2 +1,2 @@
 # merge-queue-test
-test
+test2
